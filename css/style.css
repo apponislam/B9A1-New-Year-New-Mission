@@ -123,11 +123,254 @@ body {
     width: 320px;
 }
 
+/* Place date time */
 
+.placedatetime {
+    background: url(../img/placedatetime.png) no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 120px;
+}
 
+.placedatetime h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.placedatetime span {
+    color: #FF0000;
+}
 
+.placedatetime button {
+    padding: 16px 32px;
+    border: none;
+    background: #FF0000;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+}
 
+/* Coming Soon */
+
+.comingsoon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.coming1 h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.coming1 h3 {
+    font-family: 'Merriweather',
+        serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.coming1 p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #6a6770;
+    margin-bottom: 0px;
+    line-height: 32px;
+}
+
+.coming2 {
+    border-radius: 50%;
+    border: 15px solid #FF0000;
+    padding: 35px;
+    margin: 0 50px 0 100px;
+}
+
+.comingimg img {
+    width: 360px;
+}
+
+.coming3 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+
+.coming3 p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #6a6770;
+    margin-bottom: 40px;
+    line-height: 32px;
+}
+
+.coming3 img {
+    width: 140px;
+}
+
+/* Holidays Sale */
+
+.holidays {
+    margin-bottom: 120px;
+}
+
+.holidays h6 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.holidays h1 {
+    font-family: 'Merriweather',
+        serif;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    color: #070211;
+    margin-bottom: 28px;
+}
+
+.holidays span {
+    color: #FF0000;
+}
+
+.holidays p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #6a6770;
+    margin-bottom: 64px;
+    text-align: center;
+    line-height: 32px;
+}
+
+/* Best Gifts */
+
+.bestgift {
+    margin-bottom: 120px;
+}
+
+.bestgift h6 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+
+.bestgift h1 {
+    font-family: 'Merriweather',
+        serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 28px;
+}
+
+.bestgift p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #6a6770;
+    margin-bottom: 64px;
+    line-height: 32px;
+}
+
+.giftimges {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.giftimges img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.giftimges img:hover {
+    opacity: 0.5;
+    transform: translateY(-16px);
+}
+
+/* Subscribe Newsletter */
+
+.newsletter {
+    border-radius: 16px;
+    margin-bottom: 120px;
+    background: #fff2f2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 80px 0;
+}
+
+.newsletter img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.newsletter h1 {
+    font-family: 'Merriweather',
+        serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.newsletter p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #6a6770;
+    text-align: center;
+    margin-bottom: 48px;
+    line-height: 32px;
+}
+
+.newsletterinput {
+    position: relative;
+    width: 648px;
+    display: block;
+    margin: 0 auto;
+}
+
+.newsletterinput input {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 240px 25px 30px;
+    color: #B5B4B8;
+    width: 100%;
+    background: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.newsletterinput button {
+    position: absolute;
+    right: 0;
+    padding: 24px 56px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FF0000;
+    color: white;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
 
 
 
