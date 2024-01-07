@@ -80,3 +80,45 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+/* Midnight Party */
+
+.middnight {
+    margin-bottom: 69px;
+    padding: 65px 130px;
+    background: url(../img/welcomepartybg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partytext h1 {
+    font-family: 'Merriweather',
+        serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.partytext p {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 48px;
+}
+
+.partytext a {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding: 0 48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.partyimg {
+    width: 320px;
+}
