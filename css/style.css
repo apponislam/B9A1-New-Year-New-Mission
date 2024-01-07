@@ -122,3 +122,82 @@ body {
 .partyimg {
     width: 320px;
 }
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    background: #070211;
+}
+
+.footer {
+    padding: 120px 0;
+}
+
+.footer1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.footer1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footerlinks {
+    width: 400px;
+}
+
+.callaction {
+    display: flex;
+    align-items: center;
+}
+
+.callaction img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 50px;
+}
+
+.footer2 img {
+    width: 64px;
+    margin: 0 24px;
+}
+
+.footer3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer3 p {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer3 a {
+    text-decoration: none;
+}
